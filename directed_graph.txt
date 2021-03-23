@@ -1,0 +1,21 @@
+true
+15 Structure DiscreteStructure CS1 CS1Lab  CS2 CS2Lab DataStructure
+DiscreteStructureII DiscreteStructureIILab Algorithms DataMining 
+ComputerOrganization OperatingSystem DataBase TheoryOfComputation
+Structure -> DiscreteStructureII 
+Structure -> DiscreteStructureIILab
+DiscreteStructure -> DiscreteStructureII 
+DiscreteStructure -> DiscreteStructureIILab
+CS1 -> CS1Lab
+CS1Lab -> CS1
+CS2 -> CS2Lab
+CS2Lab -> CS2
+CS2 -> DataStructure
+DataStructure -> Algorithms
+CS1 -> ComputerOrganization
+CS1 -> DataBase
+DiscreteStructureII -> ComputerOrganization
+DiscreteStructureII -> TheoryOfComputation
+ComputerOrganization -> OperatingSystem
+
+
